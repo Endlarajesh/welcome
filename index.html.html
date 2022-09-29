@@ -1,0 +1,32 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>form</title>
+        </head>
+        <style>
+                .header{
+                    color:rgb(221, 187, 147)
+                }
+        </style>            
+        </body>
+        <h1 class="header">Application form</h1><br>
+        <form action="">
+            <fieldset>
+                <legend>person details</legend><br>
+                <label for=" text">user name</label><br>
+                <input type="text"placeholder="enter your full name" required><br>
+                <label for="email">email id</label><br>
+                <input type="email"placeholder="enter your email id" required pattern="(?=.*\d)(?=.*=[@])" >
+                <br><br>
+                <label for="password">password</label><br>
+                <input type="password"placeholder="enter  your password"required pattern="(?=.*\d)(?=.*[a-z])(?=.*[1-8].{8,})">
+
+                
+
+            </fieldset>
+        
+
+        </html>
